@@ -20,14 +20,38 @@ const Home = () => {
       <section className="p-5 flex flex-col justify-center items-center">
         <h1 className="text-2xl font-bold">NEW ARRIVALS</h1>
         <h1 className="text-3xl">Explore Our Latest Collection</h1>
-        <div className="md:grid grid-cols-4 w-full mt-5">         
-            <div className="shadow p-3 rounded mx-4">
-              <img width={'100%'} height={'250px'} src="/photo.png" alt="book1" />
-              <div className="flex flex-col justify-center items-center mt-4">
-                <p className="text-blue-700 font-bold text-lg">Author</p>
-                <p>Book Title</p>
-                <p>$ 400</p>
-              </div>
+        <div className="md:grid grid-cols-4 w-full mt-5">
+          <div className="shadow p-3 rounded mx-4">
+            <img width={'100%'} height={'250px'} src="/photo.png" alt="book1" />
+            <div className="flex flex-col justify-center items-center mt-4">
+              <p className="text-blue-700 font-bold text-lg">Author</p>
+              <p>Book Title</p>
+              <p>$ 400</p>
+            </div>
+          </div>
+          <div className="shadow p-3 rounded mx-4">
+            <img width={'100%'} height={'250px'} src="/photo.png" alt="book1" />
+            <div className="flex flex-col justify-center items-center mt-4">
+              <p className="text-blue-700 font-bold text-lg">Author</p>
+              <p>Book Title</p>
+              <p>$ 400</p>
+            </div>
+          </div>
+          <div className="shadow p-3 rounded mx-4">
+            <img width={'100%'} height={'250px'} src="/photo.png" alt="book1" />
+            <div className="flex flex-col justify-center items-center mt-4">
+              <p className="text-blue-700 font-bold text-lg">Author</p>
+              <p>Book Title</p>
+              <p>$ 400</p>
+            </div>
+          </div>
+          <div className="shadow p-3 rounded mx-4">
+            <img width={'100%'} height={'250px'} src="/photo.png" alt="book1" />
+            <div className="flex flex-col justify-center items-center mt-4">
+              <p className="text-blue-700 font-bold text-lg">Author</p>
+              <p>Book Title</p>
+              <p>$ 400</p>
+            </div>
           </div>
         </div>
       </section>
@@ -49,7 +73,7 @@ const Home = () => {
         <h1 className="text-2xl font-bold">TESTIMONIALS</h1>
         <h1 className="text-3xl">See What Other People Are Saying</h1>
         <div className="my-5 flex justify-center items-center mx-auto">
-          <img src="https://static.vecteezy.com/system/resources/previews/038/962/461/non_2x/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg" alt="User" width={'200px'} height={'200px'}/>
+          <img src="https://static.vecteezy.com/system/resources/previews/038/962/461/non_2x/ai-generated-caucasian-successful-confident-young-businesswoman-ceo-boss-bank-employee-worker-manager-with-arms-crossed-in-formal-wear-isolated-in-white-background-photo.jpg" alt="User" width={'200px'} height={'200px'} />
           <h4>Treesa Joseph</h4>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quis expedita temporibus aspernatur vitae adipisci ullam assumenda ratione quam suscipit laborum, molestiae perspiciatis non repellat voluptate consequatur qui consectetur. Officiis?</p>
         </div>

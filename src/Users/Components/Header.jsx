@@ -30,7 +30,7 @@ const Header = () => {
           </div>
         </div>
         {/* Lower part of header with links */}
-        <nav className='w-full bg-blue-950 text-white p-3'>
+        <nav className='w-full bg-blue-950 text-white p-2'>
           {/* menubar & login */}
           <div className="flex justify-start items-center text-xl md:hidden">   
             <button onClick={() =>setListStatus(!listStatus)}><FontAwesomeIcon icon={faBars} /> </button>
