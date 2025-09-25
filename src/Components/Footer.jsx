@@ -6,7 +6,7 @@ import { faFacebook, faInstagram, faLinkedin, faXTwitter, } from '@fortawesome/f
 const Footer = () => {
   return (
     <>
-      <div className='bg-blue-950 text-white py-8 mt-48'>
+      <div className='bg-blue-950 text-white py-8 mt-40'>
         <div className="grid grid-cols-1 md:grid-cols-3 px-5 py-10 gap-15">
           <div>
             <h2 className='text-md mb-2'>ABOUT</h2>

@@ -1,9 +1,10 @@
 import React from 'react'
+import AdminHeader from '../Components/AdminHeader'
 
 const AdminDashBoard = () => {
   return (
     <div>
-      AdminDashBoard
+      <AdminHeader/>
     </div>
   )
 }
