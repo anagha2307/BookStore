@@ -15,11 +15,11 @@ const Header = () => {
             <img src="logo.png" alt="logo" width={'50px'} height={'50px'} />
             <h1 className='text-3xl text-center font-bold ms-2 md:hidden'>BOOK  STORE</h1>
           </div>
-          <div className="md:flex justify-center items-center">
+          <div className="md:flex justify-center items-center hidden">
             <h1 className='text-3xl text-center font-bold ms-2'>BOOK  STORE</h1>
           </div>
           
-          <div className='flex justify-end items-center space-x-1 text-xl'>
+          <div className='flex justify-end items-end md:my-0 my-3 space-x-1 text-xl'>
             <FontAwesomeIcon icon={faInstagram} />
             <FontAwesomeIcon icon={faFacebook} />
             <FontAwesomeIcon icon={faTwitter} />

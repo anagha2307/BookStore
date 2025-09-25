@@ -13,6 +13,7 @@ import AdminDashBoard from './Admin/Pages/AdminDashBoard'
 import CareerAdmin from './Admin/Pages/CareerAdmin'
 import ResourceAdmin from './Admin/Pages/ResourceAdmin'
 import SettingAdmin from './Admin/Pages/SettingAdmin'
+import Pnf from './Pages/Pnf'
 
 function App() {
   const [loading,setLoading] = useState(true)
@@ -38,6 +39,8 @@ function App() {
       <Route path='/admin-careers' element={<CareerAdmin/>} />
       <Route path='/admin-resources' element={<ResourceAdmin/>} />
       <Route path='/admin-settings' element={<SettingAdmin/>} />
+      <Route path='/*' element={<Pnf/>} />
+
     
     </Routes>
 

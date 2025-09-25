@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../../Components/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLocationDot, faSquareUpRight } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 const Careers = () => {
   return (
@@ -23,7 +23,7 @@ const Careers = () => {
             <h1 className='text-xl p-5 text-gray-700 font-bold'>Job Title</h1>
             <div className="flex">
             <button className="bg-blue-800 text-white text-lg rounded m-5 md:px-4 px-2 py-2">Apply
-            <FontAwesomeIcon icon={faSquareUpRight} className='ms-2 text-2xl' />
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} className='ms-2 text-2xl'  />
             </button>
             </div>
           </div>
