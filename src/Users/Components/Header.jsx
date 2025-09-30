@@ -23,7 +23,10 @@ const Header = () => {
           <FontAwesomeIcon icon={faFacebook} />
           <FontAwesomeIcon icon={faTwitter} />
           <Link to={'/login'}>
-            <button><FontAwesomeIcon icon={faUser} /></button>
+            <button className='border border-black rounded px-3 py-2 ms-3 hover:bg-black hover:text-white'>
+              <FontAwesomeIcon icon={faUser} className='me-1' />
+              Login
+            </button>
           </Link>
 
         </div>
@@ -37,7 +40,7 @@ const Header = () => {
           <Link to={'/login'}>
             <button className='border border-black rounded px-3 py-2 ms-3 hover:bg-black hover:text-white'>
               <FontAwesomeIcon icon={faUser} className='me-1' />
-              Login{""}
+              Login
             </button>
           </Link>
         </div>

@@ -9,7 +9,7 @@ const SettingAdmin = () => {
   return (
     <>
       <AdminHeader />
-      <div className="grid md:grid-cols-5 grid-cols-1">
+      <div className="grid md:grid-cols-6 grid-cols-1">
         <div className='col-span-1'>
           <AdminSideBar />
         </div>

@@ -8,7 +8,7 @@ const AdminSideBar = () => {
   return (
     <div className="bg-blue-100 min-h-screen text-center p-5">
       {/* User Icon */}
-      <div className="flex justify-center my-20 mx-auto">
+      <div className="flex justify-center my-20">
         <img src="/user_icon.png" alt="User-icon" />
       </div>
       <h1 className="font-bold">Admin</h1>
