@@ -7,6 +7,18 @@ import { Link } from 'react-router-dom'
 const Auth = ({register}) => {
   const [viewPasswordStatus,setViewPasswordStatus] = useState(true)
   const [userDetails,setUserDetails] = useState({username:"",email:"",password:""})
+  //console.log(userDetails);
+
+  const handleRegister = () => {
+    console.log("Inside handleRegister");
+    const {username,email,password} = userDetails
+    if(!username || !email || !password){
+      alert("Please fill the form completely!!!")
+    }else{
+      alert("Proceed to API call")
+    }    
+  }
+  
   return (
     <div className='w-full min-h-screen flex flex-col justify-center items-center bg-[url(https://images.wallpaperscraft.com/image/single/book_flowers_bouquet_198229_1350x2400.jpg)]
     bg-cover bg-left'>
@@ -46,9 +58,9 @@ const Auth = ({register}) => {
             <div className="text-center">
               {
                 register?
-                <button className="bg-green-700 p-2 w-full rounded">Register</button>
+                <button type='button' onClick={handleRegister} className="bg-green-700 p-2 w-full rounded">Register</button>
                 :
-                <button className="bg-green-700 p-2 w-full rounded">Login</button>
+                <button type='button' className="bg-green-700 p-2 w-full rounded">Login</button>
               }
             </div>
             {/* google authnetication */}
